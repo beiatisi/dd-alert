@@ -1,4 +1,4 @@
 //hello world
-test('/test',function(err, d) {
-   
+app.get('/test',function(req, res) {
+   res.end("Hello world.");
 });
