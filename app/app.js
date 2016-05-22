@@ -1,4 +1,4 @@
 //hello world
-test('',function(err, d) {
+test('/test',function(err, d) {
    
 });
