@@ -45,7 +45,7 @@ var d = {
       // });
     //})
 
-    var css = '.ddalert{background-color:rgba(0,0,0,.5);position:fixed;top:0;bottom:0;left:0;right:0;z-index:9999}.ddalert>div{background-color:#fff;border-radius:10px;width:273px;position:absolute;left:50%;top:30%;margin-left:-136px;text-align:center}.ddalert>div dl{margin:0}.ddalert>div dl dt{line-height:30px;font-size:16px;font-weight:400;padding:10px;border-bottom:1px solid #ccc}.ddalert>div dl dt h4{color:#333;line-height:inherit}.ddalert>div dl dt p{color:#666;margin:0;line-height:24px}.ddalert>div dl dd{line-height:35px;height:auto;overflow:hidden}.ddalert>div dl dd a{display:block;width:50%;float:left;font-size:16px;color:#4285f4}.ddalert>div dl dd a:last-child{border-left:1px solid #ccc}';
+    var css = '.ddalert{background-color:rgba(0,0,0,.5);position:fixed;top:0;bottom:0;left:0;right:0;z-index:9999}.ddalert>div{background-color:#fff;border-radius:10px;width:273px;position:absolute;left:50%;top:30%;margin-left:-136px;text-align:center}.ddalert>div dl{margin:0}.ddalert>div dl dt{line-height:30px;font-size:16px;font-weight:400;padding:10px;border-bottom:1px solid #ccc}.ddalert>div dl dt h4{color:#333;line-height:inherit}.ddalert>div dl dt p{color:#666;margin:0;line-height:24px}.ddalert>div dl dd{line-height:35px;height:auto;overflow:hidden}.ddalert>div dl dd a{display:block;width:50%;float:left;font-size:16px;color:#4285f4}.ddalert>div dl dd a:nth-child(2){border-left:1px solid #ccc}';
     this.options = argument;
     var _id  = Math.random().toString(36).substr(2, 15);
 
