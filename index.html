@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>dd-alert</title>
+</head>
+<style type="text/css">
+*{margin:0; padding: 0; box-sizing: border-box;}
+html,body{height: 100%;}  
+</style>
+<script type="text/javascript" src="app/app.js"></script>
+<body>
+  <button>alert 1</button>
+  <button>alert 2</button>
+  <button>alert 3</button>
+</body>
+<script type="text/javascript">
+
+  var btn = document.getElementsByTagName('button');
+  btn[0].addEventListener("click",function() {
+    new d.alert({
+      "title":"标题党",
+      "content":"提示消息",
+      "ok":{
+        "name":"好",
+        "action":function(){
+          console.log("ok");
+        }
+      },
+      "cancel":{
+        "name":"否",
+        "action":function(){
+          console.log("cancel");
+        }
+      }
+    });
+  },false);
+
+  btn[1].addEventListener("click",function() {
+    new d.alert({
+      "content":"提示消息",
+      "ok":{
+        "name":"好",
+        "action":function(){
+          console.log("ok");
+        }
+      }
+    });
+  },false);
+
+  btn[2].addEventListener("click",function() {
+    new d.alert({
+      "content":"Hello World",
+      "time":3000,
+      "ok":{
+        "name":"好",
+        "action":function(){
+          console.log("ok");
+        }
+      }
+    });
+  },false);
+
+</script>
+</html>
